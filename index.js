@@ -7,3 +7,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
     return object;
 }
 
+function updateObjectNew(object, key, value) {
+var clone = Object.assign({}, object, {key: value});
+return clone
+}
+
