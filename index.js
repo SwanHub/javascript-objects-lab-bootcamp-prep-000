@@ -14,4 +14,4 @@ return clone
 
 updateObjectNew(recipes, "fun", "fetti");
 
-
+recipes[fun];
