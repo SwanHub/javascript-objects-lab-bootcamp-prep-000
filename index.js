@@ -1,6 +1,5 @@
 var recipes = {
   bakingSoda: "lots",
-  cookies: "many"
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
