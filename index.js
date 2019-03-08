@@ -18,3 +18,13 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   Object.assign(object, {[key]: value});
   return object;
 }
+
+var recipeClone = Object.assign({}, recipe);
+
+function deleteFromObjectByKey(object, key) {
+ var objectClone = Object.assign({}, object);
+ delete objectClone[key];
+ return objectClone;
+}
+
+
