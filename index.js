@@ -12,3 +12,6 @@ var clone = Object.assign({}, object, {key: value});
 return clone
 }
 
+updateObjectNew(recipes, "fun", "fetti");
+
+
