@@ -10,8 +10,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 updateObjectWithKeyAndValue(recipes, "fun", "surprise");
 
-
 function updateObjectWithKeyAndValue(object, key, value) { 
-  var newObject = Object.assign({}, object, {key: value})
-  return newObject;
+  Object.assign({}, object, {key: value});
 }
+
+updateObjectWithKeyAndValue(recipes, "buns", "galore");
