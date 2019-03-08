@@ -10,8 +10,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 updateObjectWithKeyAndValue(recipes, "fun", "surprise");
 
-function updateObjectWithKeyAndValue(object, key, value) { 
-  Object.assign({}, object, {key: value});
-}
 
-updateObjectWithKeyAndValue(recipes, "buns", "galore");
