@@ -8,7 +8,3 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 updateObjectWithKeyAndValue(recipes, "fun", "surprise");
-
-function updateObjectNew(object, key, value) {
-Object.assign({}, object, {key: value});
-}
