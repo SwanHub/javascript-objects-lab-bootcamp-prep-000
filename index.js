@@ -8,6 +8,9 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return object;
 }
 
+updateObjectWithKeyAndValue(recipes, "fun", "surprise");
+
+
 function updateObjectWithKeyAndValue(object, key, value) { 
   var newObject = Object.assign({}, object, {key: value})
   return newObject;
